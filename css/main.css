@@ -1,0 +1,23 @@
+.main {
+    /*Main Box Model*/
+    display: flex;
+    border: black dashed;
+}
+
+.Status {
+
+}
+
+.Actions {
+ display: block;
+    border: brown solid;
+}
+
+.Information   {
+    flex: auto;
+
+}
+
+.Logs {
+
+}

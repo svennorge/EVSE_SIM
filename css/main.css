@@ -1,16 +1,23 @@
+body{
+    background-color: cornsilk;
+}
+
 .main {
     /*Main Box Model*/
-    display: flex;
+    display: block;
     border: black dashed;
 }
 
 .Status {
+    background-color: aliceblue;
+    border: black solid 1px;
 
 }
 
 .Actions {
- display: block;
+    display: block;
     border: brown solid;
+    child-align: center;
 }
 
 .Information   {
@@ -19,5 +26,6 @@
 }
 
 .Logs {
+
 
 }

@@ -5,21 +5,23 @@
     <title>Control Panel</title>
     <link href="css/main.css" rel="stylesheet">
     <script src="js/main.js"></script>
-</head>
+    </head>
 <body>
 <div class="main">
     <div class="Information">
         <p>Wallbox Id</p>
     </div>
     <div class="Status">
-        <div class="Logs">
+    <p>Status Working</p>
+    </div>
+    <div class="Logs">
 
-        </div>
-        <div class="Actions">
-            <button id="Start">Start</button>
-            <button id="Stop">Stop</button>
-            <button id="Failure">Failure</button>
-        </div>
+
+    </div>
+    <div class="Actions">
+            <button id="Start" onclick="startCharging()">Start</button>
+            <button id="Stop" onclick="stopCharging()">Stop</button>
+            <button id="Failure" onclick="resetEVSE()">Reset</button>
     </div>
 </div>
 </body>
